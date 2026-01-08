@@ -1,0 +1,25 @@
+# ✅ Garde uniquement les dossiers nécessaires :
+# - Config/
+# - Content/
+# - Source/ (si tu en as un)
+# - *.uproject
+
+# 🚫 Ignore les dossiers générés automatiquement :
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 🚫 Ignore les fichiers de build (Visual Studio, etc.) :
+*.sln
+*.suo
+*.vcxproj*
+*.opensdf
+*.sdf
+*.cache
+*.log
+*.tmp
+
+# 🚫 Dossiers d’IDE :
+.vscode/
+.idea/
